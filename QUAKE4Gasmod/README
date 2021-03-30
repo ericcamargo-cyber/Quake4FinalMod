@@ -1,0 +1,46 @@
+Changes Made and how to Demonstrate:
+
+
+
+WEAPONS:
+-Blaster modified to shoot smoke trail graphic
+-Blaster modified to shoot gas when charged
+      -can be demonstrated by firing the blaster in the mod
+-rocket launcher modified to shoot a gas cloud in rocket form
+-rocket launcher modified to produce a new sound effect when fired
+     -can be demonstrated by firing the rocket launcher in the mod
+-napalm blaster modified to shoot a gas explosive that burns green fire
+     -can be demonstrated by firing the napalm blaster in the mod
+-hyper blaster modified to shoot a rapid fire gas chain that is explosive to enemies
+      -can be demonstrated by firing the hyper blaster in the mod
+-grenade launcher modified to shoot a gas grenade
+-grenade launcher sound effect also modified
+     -can be demonstrated by firing the grenade launcher in the mod
+-lightning gun modified to shoot green electricity and produce gas on impact
+     -can be demonstrated by firing the lightning gun
+
+STATUS EFFECTS/MOVEMENT EFFECTS:
+-created a brief flying effect that occurs while reloading (emptying the gas) 
+      -can be demonstrated by reloading any weapon and holding space bar to fly in the air in the mod
+-movement speed lowered with a status effect “Gassed”
+      -can be demonstrated if health drops below 50% your movement speed will drop to approximately 50% the original speed, in the mod
+-movement speed raised with a status effect “Empty Stomach”
+      -can be demonstrated if health is exactly 100%, your movement speed will increase by approximately 2x, in the mod
+-movement speed lowered with a status effect “Uber Gassed”
+      -can be demonstrated if health drops below 25% your movement speed will drop to approximately 25% the original speed, in the mod
+
+STROGG EFFECTS
+-modified the gib.fx file of the strogg_marine to have the grunts explode into gas rather than giblets
+      -can be demonstrated by firing any explosive directly at an enemy grunt in the mod
+-modified the strogg_marine def file so that the projectile fired fx would be gas rather than the hyper blaster fx 
+      -can be demonstrated by allowing the strogg to fire at you or another marine in the mod
+
+UI CHANGES
+-modified the hit marker of the player to print “gas accumulating” upon damage
+      -can be demonstrated by taking damage in the mod
+-modified the language pak weapon names to reflect weapon ability
+     -can be demonstrated by switching between weapons in the mod
+-modified the language pak menu settings/difficulty settings to unique names the reflect the mod
+      -can be demonstrated by going through the menu in the mod
+-modified the health bar in the HUD to reflect the status effects that impact the player
+     -can be demonstrated by activating a status effect in the mod
